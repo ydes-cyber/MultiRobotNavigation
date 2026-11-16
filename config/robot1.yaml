@@ -1,0 +1,12 @@
+robot_controller:
+  ros__parameters:
+    robot_id: robot1
+    linear_speed: 0.15
+    angular_speed: 0.5
+    target_topic: /exploration/target
+    velocity_topic: /cmd_vel
+
+sensor_processor:
+  ros__parameters:
+    sensor_topic: /ultrasonic
+    obstacle_threshold: 0.25
